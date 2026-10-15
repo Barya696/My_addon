@@ -1,0 +1,4 @@
+*.blend binary
+*.npz binary
+*.npy binary
+*.obj binary

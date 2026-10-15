@@ -1,0 +1,1 @@
+{"test": "init1", "kind": "init", "time": 82.34300079999957, "reply": {"response": "wrap_response", "code": 4, "status": "Failed to create init data", "message": ""}, "reply_keys": ["code", "message", "response", "status"], "flex": 100.0, "accuracy": 3.0}

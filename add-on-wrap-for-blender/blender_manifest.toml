@@ -1,0 +1,23 @@
+schema_version = "1.0.0"
+
+
+id = "teca3d_wrap_for_blender"
+version = "1.0.2"
+name = "Wrap for Blender"
+tagline = "Wrap the template mesh around the target mesh"
+maintainer = "flymonkey9@gmail.com"
+
+type = "add-on"
+
+website = "https://wrap4blender.teca3d.com/"
+
+tags = ["3D View", "Mesh", "User Interface"]
+
+blender_version_min = "5.0.0"
+
+platforms = ["windows-x64"]
+
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]

@@ -1,0 +1,33 @@
+# Kept on disk, not in the repo
+
+# Copies and old versions
+backups/
+*.zip
+
+# Third-party: the original TECA 3D daemon, research papers
+wrapDaemon_unpacked/
+*.pdf
+
+# Built daemon and binaries (rebuild with PyInstaller from snap-to-stick-iteration/daemon)
+add-on-wrap-for-blender/bin/
+snap-to-stick-iteration/daemon/build/
+snap-to-stick-iteration/daemon/dist/
+*.exe
+*.dll
+*.pyd
+
+# Python environments and caches (recreate from the requirements)
+.venv*/
+__pycache__/
+*.pyc
+
+# Model weights (downloaded, see the detectors' READMEs)
+*.onnx
+*.pth
+*.pt
+
+# Test scenes: only the two demo scenes are kept
+*.blend
+*.blend1
+!/eve_wrap_demo.blend
+!/eve_wrap_demo_fresh.blend

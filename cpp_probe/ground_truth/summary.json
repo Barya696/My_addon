@@ -1,0 +1,132 @@
+{
+ "eve88_medium": {
+  "source_vertices": 54412,
+  "pairs": 88,
+  "steps": {
+   "snap": 4,
+   "attract": 12,
+   "stick": 10
+  },
+  "quality": {
+   "snap": {
+    "pair_gap_mean_mm": 0.4492071840957988,
+    "pair_gap_max_mm": 1.1338278892611178,
+    "edges_ratio_outside_1.5": 1936
+   },
+   "attract": {
+    "pair_gap_mean_mm": 0.5495461702277,
+    "pair_gap_max_mm": 1.3448362148257624,
+    "edges_ratio_outside_1.5": 9308
+   },
+   "stick": {
+    "pair_gap_mean_mm": 2.4287642604163422e-08,
+    "pair_gap_max_mm": 9.313225746154785e-07,
+    "edges_ratio_outside_1.5": 11479
+   }
+  }
+ },
+ "probeA_bar_both_ends_turned_90deg": {
+  "source_vertices": 674,
+  "pairs": 50,
+  "steps": {
+   "snap": 20,
+   "attract": 20,
+   "stick": 2
+  },
+  "quality": {
+   "snap": {
+    "pair_gap_mean_mm": 6.982550959785678e-07,
+    "pair_gap_max_mm": 1.0536712284732754e-06,
+    "edges_ratio_outside_1.5": 0
+   },
+   "attract": {
+    "pair_gap_mean_mm": 6.98255094883133e-07,
+    "pair_gap_max_mm": 1.0536712284732754e-06,
+    "edges_ratio_outside_1.5": 0
+   },
+   "stick": {
+    "pair_gap_mean_mm": 6.982550959386712e-07,
+    "pair_gap_max_mm": 1.0536712088471197e-06,
+    "edges_ratio_outside_1.5": 0
+   }
+  }
+ },
+ "probeB_attract_facing": {
+  "source_vertices": 2205,
+  "pairs": 15,
+  "steps": {
+   "snap": 20,
+   "attract": 9,
+   "stick": 10
+  },
+  "quality": {
+   "snap": {
+    "pair_gap_mean_mm": 1.7441306097819663e-05,
+    "pair_gap_max_mm": 4.7706993247323724e-05,
+    "edges_ratio_outside_1.5": 0
+   },
+   "attract": {
+    "pair_gap_mean_mm": 0.042667147257286396,
+    "pair_gap_max_mm": 0.2257250467585335,
+    "edges_ratio_outside_1.5": 0
+   },
+   "stick": {
+    "pair_gap_mean_mm": 1.7445972520936144e-05,
+    "pair_gap_max_mm": 4.772955226413379e-05,
+    "edges_ratio_outside_1.5": 0
+   }
+  }
+ },
+ "probeC_attract_reach": {
+  "source_vertices": 2205,
+  "pairs": 15,
+  "steps": {
+   "snap": 20,
+   "attract": 10,
+   "stick": 10
+  },
+  "quality": {
+   "snap": {
+    "pair_gap_mean_mm": 1.7441306097819663e-05,
+    "pair_gap_max_mm": 4.7706993247323724e-05,
+    "edges_ratio_outside_1.5": 0
+   },
+   "attract": {
+    "pair_gap_mean_mm": 0.4627244352011671,
+    "pair_gap_max_mm": 0.7599903318702044,
+    "edges_ratio_outside_1.5": 0
+   },
+   "stick": {
+    "pair_gap_mean_mm": 1.7588908710141234e-05,
+    "pair_gap_max_mm": 4.775230110251746e-05,
+    "edges_ratio_outside_1.5": 10
+   }
+  }
+ },
+ "probeD_attract_stick_angle": {
+  "source_vertices": 315,
+  "pairs": 15,
+  "steps": {
+   "snap": 20,
+   "attract": 20,
+   "stick": 10
+  },
+  "quality": {
+   "snap": {
+    "pair_gap_mean_mm": 1.7010695902391113e-05,
+    "pair_gap_max_mm": 4.768384683175638e-05,
+    "edges_ratio_outside_1.5": 0
+   },
+   "attract": {
+    "pair_gap_mean_mm": 0.09596670667819017,
+    "pair_gap_max_mm": 0.4141235534310539,
+    "edges_ratio_outside_1.5": 0
+   },
+   "stick": {
+    "pair_gap_mean_mm": 1.7069081769154797e-05,
+    "pair_gap_max_mm": 4.773224268960972e-05,
+    "edges_ratio_outside_1.5": 1
+   }
+  }
+ }
+}
